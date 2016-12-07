@@ -14,9 +14,9 @@
 				<img src="images/logo.png" style="float: left; padding: 4px;" />
 				<form  method="post" action="" id="form1" style="float: right; line-height: 80px;">
 					<strong>Email:</strong>
-					<input type="text" name="email" placeholder="Email"/>
+					<input type="text" name="email" placeholder="Email" required="required" />
 					<strong>Password:</strong>
-					<input type="password" name="pass" placeholder="*************"/>
+					<input type="password" name="pass" placeholder="*************" required="required"/>
 					<button name="login">Login</button>
 				</form>			
 			</div>	
@@ -31,12 +31,12 @@
 			</div>
 			<div id="form2">
 				<form action="" method="post">
-				<h2> Sign Up Here</h2>
+				<h2>       Sign Up Today</h2>
 					<table>
 						<tr>
 							<td align="right">Name:</td>
 								<td>
-									<input type="text" name="u_name" placeholder="Enter Your Name"/>
+									<input type="text" name="u_name" placeholder="Enter Your Name" required="required"/>
 								</td>
 							</td>
 						</tr>
@@ -44,7 +44,7 @@
 						<tr>
 							<td align="right">Password:</td>
 								<td>
-									<input type="text" name="u_email" placeholder="Enter Your Email"/>
+									<input type="text" name="u_email" placeholder="Enter Your Email" required="required"/>
 								</td>
 							</td>
 						</tr>
@@ -52,7 +52,7 @@
 						<tr>
 							<td align="right">Email:</td>
 								<td>
-									<input type="text" name="u_name" placeholder="Enter Your Name"/>
+									<input type="text" name="u_name" placeholder="Enter Your Name" required="required"/>
 								</td>
 							</td>
 						</tr>
@@ -61,7 +61,7 @@
 							<td align="right">Country:</td>
 								
 								<td>
-								<select name="u_country">
+								<select name="u_country" required="required">
 									<option>Select a Country</option>
 									<option>Canada</option>
 									<option>China</option>
@@ -77,7 +77,7 @@
 						<tr>
 							<td align="right">Gender:</td>
 							<td>
-							<select name="u_gender">
+							<select name="u_gender" required="required">
 									<option>Select a Gender</option>
 									<option>Male</option>
 									<option>Female</option>					
@@ -105,6 +105,10 @@
 			</div>
 		</div>
 		<!--Content area ends-->
+
+		<div id="footer">
+			<h2>&copy; 2016 - www.simbalabs.com</h2>
+		</div>
 
 	</div>
 	<!--Container ends-->
