@@ -11,7 +11,7 @@
 		<div id="head_wrap">
 			<!--Header starts-->
 			<div id="header">
-				<img src="images/logo.png" style="float: left; padding: 4px;" />
+				<img src="images/logo7.png" href="#" style="float: left; padding: 4px;" />
 				<form  method="post" action="" id="form1" style="float: right; line-height: 80px;">
 					<strong>Email:</strong>
 					<input type="text" name="email" placeholder="Email" required="required" />
@@ -27,7 +27,7 @@
 		<!--Content area starts-->
 		<div id="content">
 			<div>
-				<img src="images/background3.png" style="float:left; margin-left: -200px;"/>
+				<img src="images/background4.png" style="float:left; margin-left: -65px;"/>
 			</div>
 			<div id="form2">
 				<form action="" method="post">
