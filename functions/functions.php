@@ -1,10 +1,11 @@
 <?php
 
-$con = mysql_connect("localhost","root","","social_network") or die("Simba says connection can NOT be established");
+$connection = mysql_connect("localhost","root","","social_network") or die("Simba says connection can NOT be established");
 
 function InsertUser() {
-	if(isset($_POST['sign_up'])){
+	global $connection;
 
+	if(isset($_POST['sign_up'])){
 		$name = $_POST['u_name'];
 		$pass = $_POST['u_pass'];
 		$email = $_POST['u_email'];
@@ -15,8 +16,8 @@ function InsertUser() {
 		$status = "unverified";
 		$posts = "No";
 
-		$get_email = "select * from users where user_email='$email'";
-		$run_email = mysqli_query($con,$get_email);
+		$get_email = "SELECT * FROM users WHERE user_email='$email'";		
+		$run_email = mysqli_query($this->connection, $get_email);
 		$check = mysqli_num_rows($run_email);
 
 		if($check==1){
