@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+
+<?php
+include("functions/functions.php"); 
+?>
+
 <html>
 	<head>
 		<title>My Social Network</title>
@@ -44,7 +49,7 @@
 						<tr>
 							<td align="right">Password:</td>
 								<td>
-									<input type="text" name="u_email" placeholder="Enter Your Email" required="required"/>
+									<input type="password" name="u_pass" placeholder="Enter Your Password" required="required"/>
 								</td>
 							</td>
 						</tr>
@@ -52,7 +57,7 @@
 						<tr>
 							<td align="right">Email:</td>
 								<td>
-									<input type="email" name="u_name" placeholder="Enter Your Name" required="required"/>
+									<input type="email" name="u_email" placeholder="Enter Email" required="required"/>
 								</td>
 							</td>
 						</tr>
@@ -89,7 +94,7 @@
 						<tr>
 							<td align="right">Date:</td>
 								<td>
-									<input type="date" name="u_bithday"/>
+									<input type="date" name="u_birthday"/>
 								</td>
 							</td>
 						</tr>
@@ -99,9 +104,9 @@
 								<button name="sign_up">Sign Up</button>
 							</td>
 						</tr>
-					</table>
-					
+					</table>					
 				</form>
+				<?<?php InsertUser(); ?>
 			</div>
 		</div>
 		<!--Content area ends-->
