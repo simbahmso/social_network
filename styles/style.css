@@ -99,8 +99,10 @@ body {
 }
 
 #form2 h2 {
-	padding: 20px;
-	margin-left: 100px;
+	padding: 40px;
+	/*margin-left: 100px;*/
+	position: relative;
+	left: 140px;
 	font-family: Comic Sans Ms;
 }
 

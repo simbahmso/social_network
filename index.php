@@ -27,7 +27,7 @@
 		<!--Content area starts-->
 		<div id="content">
 			<div>
-				<img src="images/background2.png" style="float:left; margin-left: -200px;"/>
+				<img src="images/background3.png" style="float:left; margin-left: -200px;"/>
 			</div>
 			<div id="form2">
 				<form action="" method="post">
