@@ -107,7 +107,7 @@
 		<!--Content area ends-->
 
 		<div id="footer">
-			<h2>&copy; 2016 - www.simbalabs.com</h2>
+			<h2>&copy; 2017 - www.simbalabs.com</h2>
 		</div>
 
 	</div>
