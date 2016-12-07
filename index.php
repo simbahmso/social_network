@@ -11,8 +11,12 @@
 		<div id="head_wrap">
 			<!--Header starts-->
 			<div id="header">
-				<img src="images/logo.png" style="float:left"/>
-				
+				<img src="images/logo.png" style="float: left; padding: 4px;" />
+				<form  method="post" action="" id="form1" style="float: right; line-height: 80px;">
+					<input type="text" name="email" placeholder="Email"/>
+					<input type="password" name="pass" placeholder="*************************"/>
+					<button name="login">Login</button>
+				</form>			
 			</div>	
 			<!--Header ends-->		
 		</div>

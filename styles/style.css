@@ -37,13 +37,29 @@ body {
 }
 #head_wrap{
 	width: 100%;
-	padding: 0;
+	height: 100px;
+	margin: 0 auto;
+	padding: 10px;
 	border-bottom: 5px solid brown;
 	padding: 0;
 	background: #1e90ff;
-	height: 100px;
+	
 }
 #header{
-	margin: 0 audio;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100px;
+}
+
+#form1 input {
+	width: 150px;
+	height: 20px;
 	padding: 10px;
 }
+
+#form1 button {
+	width: 150px;
+	height: 20px;
+	
+}
+
