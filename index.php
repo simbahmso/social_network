@@ -14,7 +14,7 @@
 				<img src="images/logo7.png" href="#" style="float: left; padding: 4px;" />
 				<form  method="post" action="" id="form1" style="float: right; line-height: 80px;">
 					<strong>Email:</strong>
-					<input type="text" name="email" placeholder="Email" required="required" />
+					<input type="email" name="email" placeholder="Email" required="required" />
 					<strong>Password:</strong>
 					<input type="password" name="pass" placeholder="*************" required="required"/>
 					<button name="login">Login</button>
@@ -52,7 +52,7 @@
 						<tr>
 							<td align="right">Email:</td>
 								<td>
-									<input type="text" name="u_name" placeholder="Enter Your Name" required="required"/>
+									<input type="email" name="u_name" placeholder="Enter Your Name" required="required"/>
 								</td>
 							</td>
 						</tr>
