@@ -13,21 +13,25 @@
 			<div id="header">
 				<img src="images/logo.png" style="float: left; padding: 4px;" />
 				<form  method="post" action="" id="form1" style="float: right; line-height: 80px;">
+					<strong>Email:</strong>
 					<input type="text" name="email" placeholder="Email"/>
+					<strong>Password:</strong>
 					<input type="password" name="pass" placeholder="*************"/>
 					<button name="login">Login</button>
 				</form>			
 			</div>	
-			<!--Header ends-->		
+			<!--Header ends-->	
 		</div>
 		<!--Head wrap ends-->
 
+		<!--Content area starts-->
 		<div id="content">
 			<div>
-				<img src="images/background2.png" style="float:left; margin-right: 40px;"/>
+				<img src="images/background2.png" style="float:left; margin-left: -200px;"/>
 			</div>
-			<div>
+			<div id="form2">
 				<form action="" method="post">
+				<h2> Sign Up Here</h2>
 					<table>
 						<tr>
 							<td align="right">Name:</td>
@@ -66,7 +70,7 @@
 									<option>United Arab Emirates</option>					
 								</select>
 								</td>
-								
+								            
 							</td>
 						</tr>
 
@@ -76,7 +80,7 @@
 							<select name="u_gender">
 									<option>Select a Gender</option>
 									<option>Male</option>
-									<option>Femaless</option>					
+									<option>Female</option>					
 							</select>
 							</td>
 							</td>
@@ -91,16 +95,17 @@
 						</tr>
 
 						<tr>
-							<td>
+							<td colspan="6"> 
 								<button name="sign_up">Sign Up</button>
 							</td>
 						</tr>
-
 					</table>
 					
 				</form>
 			</div>
 		</div>
+		<!--Content area ends-->
+
 	</div>
 	<!--Container ends-->
 </body>

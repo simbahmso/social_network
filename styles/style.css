@@ -72,3 +72,41 @@ body {
 	height: 920px;
 	margin: 0 auto;
 }
+
+#form2 {
+	float: center;
+	margin-top: 20px;
+}
+
+#form2 input {
+	width: 280px;
+	height: 20px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#form2 select {
+	width: 300px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#form2 button {
+	width: 300px;
+	padding: 10px;
+	margin-left: 68px;
+}
+
+#form2 h2 {
+	padding: 20px;
+	margin-left: 100px;
+	font-family: Comic Sans Ms;
+}
+
+#form2 button:hover {
+	background-color: blue;
+	color: white;
+}
+
