@@ -58,8 +58,17 @@ body {
 }
 
 #form1 button {
-	width: 150px;
-	height: 20px;
-	
-}
+	width: 100px;
+	padding: 10px;
+} 
 
+#form1 button:hover{
+	background-color: blue;
+	color: white;
+} 
+
+#content {
+	width: 1500px;
+	height: 920px;
+	margin: 0 auto;
+}
